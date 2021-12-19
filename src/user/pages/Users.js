@@ -1,15 +1,16 @@
-import React from "react";
-import UsersList from "../components/UsersList";
+import React from 'react';
+
+import UsersList from '../components/UsersList';
 
 const Users = () => {
   const USERS = [
     {
-      id: "u1",
+      id: 'u1',
+      name: 'Max Schwarz',
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-      name: "Max",
-      places: 3,
-    },
+        'https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+      places: 3
+    }
   ];
 
   return <UsersList items={USERS} />;
